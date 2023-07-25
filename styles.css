@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+.name{
+	background-color: #011e29;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.new{
+	background-color: #f5f5f5
+}
+.name-2{
+	vertical-align: top;
+	display: inline-block;
+	background: white;
+	text-align: center;
+	width:20%;
+	padding: 20px;
+	border-radius: 20px;
+}
+.name-3{
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	text-align: center;
+	width:40%;
+	padding: 20px;
+	border-radius: 20px;
+}
+.name-4{
+	display: inline-block;
+	vertical-align: top;
+	
+	background: white;
+	text-align: center;
+	flex-direction: column;
+	width: 20%;
+	border-radius: 20px;
+	padding: 20px;
+}
+.total{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
